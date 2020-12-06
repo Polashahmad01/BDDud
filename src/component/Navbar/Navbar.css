@@ -1,0 +1,79 @@
+.navbar {
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.7rem 3rem;
+    border-radius: 60px;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    box-shadow: 5px 15px 20px -5px rgba(0, 0, 0, 0.15);
+}
+
+.navbar > div {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .logo {
+    color: #f7be16;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar .logo:hover {
+    color: #2d363f;
+}
+
+.navbar .logo > span {
+    color: #2d363f;
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar .logo:hover span {
+    color: #f7be16;
+}
+
+.navbar > div > ul {
+    display: flex;
+    list-style: none;
+    margin-left: 5rem;
+}
+
+.navbar > div > ul > li {
+    padding: 0 1.5rem;
+}
+
+.navbar > div > ul > li > a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1rem;
+    color: #293462;
+    transition: all 0.2s ease-in;
+}
+
+.navbar > div > ul > li > a:hover {
+    color: #f7be16;
+}
+
+.navbar > .navbar__contactButton {
+    border: none;
+    padding: .8rem 2.2rem;
+    border-radius: 30px;
+    background-color: #3190FF;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: .9rem;
+}
+
+.navbar > .navbar__contactButton:hover {
+    background-color: #2d363f;
+}

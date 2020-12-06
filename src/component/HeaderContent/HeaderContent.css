@@ -1,0 +1,43 @@
+.headerContent {
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    height: 80%;
+    align-items: center;
+}
+
+.headerContent > div {
+    flex: 1;
+}
+
+.headerContent > div > h1 {
+    font-size: 4rem;
+    line-height: 4rem;
+    padding-bottom: 2rem;
+    font-weight: 700;
+}
+
+.headerContent > div > p {
+    font-size: 1rem;
+    font-weight: 300;
+    margin-bottom: 3rem;
+    padding-right: 6rem;
+}
+
+.headerContent__contactButton {
+    border: none;
+    padding: 1rem 3.2rem;
+    border-radius: 30px;
+    background-color: #3190FF;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: .9rem;
+}
+
+.headerContent__contactButton:hover {
+    background-color: #2D3640;
+}
